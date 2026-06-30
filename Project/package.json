@@ -1,5 +1,5 @@
 {
-  "name": "chsi_aur_backend_project",
+  "name": "project",
   "version": "1.0.0",
   "description": "",
   "keywords": [
@@ -8,9 +8,12 @@
   ],
   "license": "ISC",
   "author": "\"Manasi\"",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
